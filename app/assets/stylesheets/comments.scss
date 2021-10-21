@@ -1,3 +1,25 @@
 // Place all the styles related to the comments controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.top-contents {
+    background-image: image-url('top.jpg')
+}
+.display-4 {
+    padding-top: 320px;
+    padding-bottom: 140px;
+    color: white;
+}
+.btn-secondary {
+    margin-bottom: 220px;
+}
+
+.box1 {
+    background-color: gray;
+}
+.box2 {
+    background-color: teal;
+}
+.box3 {
+    background-color: aqua;
+}
