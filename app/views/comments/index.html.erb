@@ -5,8 +5,8 @@
   <h4>メールアドレス： <%= current_user.email %></h4>
   <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
 <% else %>
-  <div class="top-contents">
-      <div class="col text-center">
+  <div class="jumbotron">
+      <div class="text-center">
         <h1 class="display-4">
         It's time to cooperate!
         </h1>
